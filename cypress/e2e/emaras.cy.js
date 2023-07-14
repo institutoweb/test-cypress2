@@ -20,7 +20,7 @@ describe('Test Emaras Web', ()=> {
        // Pantalla de datos: selecciono todo el cuadro de texto "Domicilio"
         cy.get(':nth-child(5) > [width="38%"] > font > input').type('{selectall}')
         //cy.get(':nth-child(5) > [width="38%"] > font > input').clear().type('Rivadavia 5050')
-        cy.get(':nth-child(5) > [width="38%"] > font > input').type('Rivadavia 4080')
+        cy.get(':nth-child(5) > [width="38%"] > font > input').type('Rivadavia 5050')
         cy.get(':nth-child(2) > input').click()
         cy.get('[align="right"] > :nth-child(1) > a > font').click()
     })
