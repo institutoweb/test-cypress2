@@ -10,7 +10,7 @@ describe('Test Emaras Web', ()=> {
 
     it('Escribo un nuevo domicilio de la Adm.', ()=>{
   
-        cy.mi_login() // ingresando con usuario y clave
+        cy.mi_logi2n() // ingresando con usuario y clave
         cy.mi_consorcio() // seleccionando el consorcio a utilizar
 
         // seleccion de "Usuarios" en el menu
